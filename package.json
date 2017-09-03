@@ -1,7 +1,7 @@
 {
-  "name": "nodrop-ku",
+  "name": "ggez-schedule-management",
   "version": "1.0.0",
-  "description": "A timeline management website (exam duration) for Kasertsart University",
+  "description": "A schedule management website (exam duration) for Kasertsart University",
   "author": "Chun Rapeepat",
   "license": "MIT",
 }
