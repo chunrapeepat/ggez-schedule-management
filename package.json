@@ -4,4 +4,15 @@
   "description": "A schedule management website (exam duration) for Kasertsart University",
   "author": "Chun Rapeepat",
   "license": "MIT",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "next": "latest",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
 }
