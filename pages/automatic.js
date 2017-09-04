@@ -42,17 +42,16 @@ export default class extends Component {
       <div>
         <Navigator />
         <FixedContainer>
-          <Hero heading="Schedule" />
+          <Hero heading="Automatic book scheduling" />
           <PanelContainer>
             <WidthContainer>
-              <Button white bg="#3D5AFE">ADD NEW ITEM</Button>
-              <Button>SHARE OR PRINT</Button>
-              <Button>IMPORT</Button>
+              <Button white bg="#651FFF">START PROCESSING</Button>
+              <Button>REPORT BUGS</Button>
             </WidthContainer>
           </PanelContainer>
         </FixedContainer>
         <NoContent>
-          <WidthContainer>วิธีการใช้งานเบื้องต้น! ถ้าหากจะเพิ่มตารางสอบให้คลิกที่ปุ่มสีนำ้เงิน ADD NEW ITEM, เมื่อสร้างตารางของตัวเองเรียบร้อยแล้วสามารถคลิกที่ปุ่ม SHARE OR PRINT แล้วนำลิ้งค์ที่ได้ไปแชร์ให้กับเพื่อน อีกทั้งยังสามารถพิมพ์เก็บไว้ได้อีกด้วย, ปุ่มสุดท้ายคือปุ่ม IMPORT ไว้ใช้สำหรับนำตารางของเพื่อนที่ได้แชร์เอาไว้แล้วนำมาเป็นของเราเอง (ถ้าขี้เกียจก็รอเพื่อนทำตารางให้แล้วรอ IMPORT ก็ได้)</WidthContainer>
+          <WidthContainer>ระบบนี้มีไว้สำหรับคนที่เกิดอาการไม่รู้ว่าจะอ่านหนังสือยังไงดี วันไหนอ่านวิชาอะไร ก็ไม่ต้องคิดมากเพราะระบบนี้จะช่วยคำนวนว่าควรจะอ่านหนังสือวิชาอะไรวันไหนโดยดูข้อมูลจากหน้าตารางสอบของคุณ สามารถเริ่มใช้งานได้ทันทีโดยกดที่ปุ่ม START PROCESSING ปล. ระบบนี้อาจมีความไม่เสถียรเนื่องจากว่าใช้เทคนิคการเขียนโปรแกรมค่อนข้างยาก ดังนั้นหากพบเจอบัคต่างๆโปรดแจ้งโดยกดปุ่ม REPORT BUGS ด้านบนเพื่อทำการแก้ไขและประปรุงให้ดีขึ้นในครั้งถัดไป</WidthContainer>
         </NoContent>
 
         <WidthContainer>
