@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import { fonts, WidthContainer, Button } from '../core/styledCollection'
+import { fonts, WidthContainer, ButtonLink } from '../core/styledCollection'
 import Footer from '../components/Footer'
 
 const TopHeaderBrand = styled.h1`
@@ -121,7 +121,7 @@ export default class extends Component {
                 <h2>Being part of GG;EZ</h2>
                 <span>เริ่มต้นใช้งานง่ายๆเพียงแค่กดปุ่มเข้าสู่ระบบด้วยเฟสบุค และสามารถที่จะเริ่มใช้งานระบบทั้งหมดได้ทันที</span>
                 <br/>
-                <Button white bg="#3D5AFE">SIGNIN WITH FACEBOOK</Button>
+                <ButtonLink href='/auth/facebook' white bg="#3D5AFE">SIGNIN WITH FACEBOOK</ButtonLink>
               </LoginContainer>
             </div>
           </Container>

@@ -10,8 +10,16 @@
     "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
+    "body-parser": "^1.17.2",
+    "connect-ensure-login": "^0.1.1",
+    "cookie-parser": "^1.4.3",
     "express": "^4.14.0",
+    "express-session": "^1.15.5",
+    "morgan": "^1.8.2",
     "next": "latest",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "passport-facebook-token": "^3.3.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "styled-components": "2.0.0"
